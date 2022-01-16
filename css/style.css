@@ -323,8 +323,9 @@ hr{
  /*barnd style part end*/
  /*feature part style start*/
   .feature_info p{
-  	text-align: center;
-  	padding:20px;
+  	text-align: left;
+  	padding:10px 15px;
+  	font-size: 12px;
   	
   }
   .feature_info h1{
