@@ -239,7 +239,7 @@ p{
 
 
 
-/*responsive part start*/
+/*responsive for moblie device */
 @media only screen and (max-width: 576px) {
 	*{
 		margin:0px;
@@ -250,6 +250,7 @@ p{
   	margin-left: 0px;
   	margin-right: 0px;
   }
+  /*menu part style start*/
 	.menu{
 	display:grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -263,18 +264,18 @@ p{
 		justify-content: center;
 		text-align: center;
 	}
-	.influencer_details{
-  		margin-top: 45px;
-  	}
-  .influencer{
+	/*menu part style end*/
+	/*influencer part style start*/
+	 .influencer{
   	display: grid;
   	grid-template-columns: repeat(1, 1fr);
   	justify-items: center
   }
-
-  .influencer_details{
-  	text-align: center;
-  }
+	.influencer_details{
+  		margin-top: 45px;
+  		text-align: center;
+  	}
+ 
    .influencer_details p{
   	font-size: 12px;
  	margin: 0px 10px;
@@ -289,7 +290,7 @@ p{
    width: 300px;
   }
  
- 
+ /*colection part style start*/
   .colection{
 	display: grid;
     grid-template-columns:repeat(1,1fr);
@@ -300,6 +301,9 @@ p{
 	width: 100%;
 } 
 
+/*collection part style end*/
+
+/*brand logo part start*/
 .brand_logo_info{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -316,7 +320,8 @@ hr{
 	display: none;
 }
  
- 
+ /*barnd style part end*/
+ /*feature part style start*/
   .feature_info p{
   	text-align: center;
   	padding:20px;
@@ -326,9 +331,11 @@ hr{
   	font-size: 30px;
  
   }
- 
+ /*feature part style end*/
 
 }
+
+ /*Responsive part for tablet device*/
 @media screen and (min-device-width: 577px) and (max-device-width: 768px) { 
 	.menu {
 	    display: grid;
@@ -340,6 +347,7 @@ hr{
  	margin-left: 0px;
  	margin-right: 0px;
  }
+ /*menu part style start*/
 	.menu_item{
 	display: none;
 	}
@@ -349,6 +357,10 @@ hr{
 		justify-content: center;
 		text-align: center;
 	}
+
+	/*menu part style end*/
+
+	/*influencer part style start*/
     .influencer{
     	display: grid;
     	grid-template-columns: repeat(2, 1fr);
@@ -377,6 +389,9 @@ hr{
     	height: 250px;
     	width: 250px;
     }
+    /*influencer part style end*/
+
+    /*barnd part style start*/
 
  .logo_img img{
 	height: 55px;
@@ -389,8 +404,11 @@ hr{
 hr{
 	display: none;
 }
+/*barnd part style end*/
+
+ /*colectuion part style start*/
    
-    .colection{
+  .colection{
   	display: grid;
       grid-template-columns:repeat(2,1fr);
   }
@@ -398,6 +416,7 @@ hr{
   .collection_item .collection_image img{
   	width: 100%;
   } 
+  /*collection part style end*/
 
     .feature{
     	 
